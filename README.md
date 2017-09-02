@@ -1,2 +1,2 @@
-# www
-Official mirror of the Antorca website (hosted on Neocities)
+# Antorca (official website)
+The official website of the Antorca project is hosted here.
