@@ -1,7 +1,8 @@
 :root {
-    --title_font: 'Source Serif Pro', sans-serif;
-    --body_font: 'Arial', sans-serif;
-    --title_colour: orangered;
+    --title_font: 'Martel Sans', 'Source Serif Pro', sans-serif;
+    --body_font: sans-serif;
+	--title_colour: orangered;
+	--logo_weight: 900;
     --button_radius: 5px;
     --global_radius: 5px;
     --display_pattern: repeating-linear-gradient(-45deg, white, white 2em, whitesmoke 2em, whitesmoke 4em);
@@ -38,6 +39,7 @@ a:hover {
 
 #jumbotron-title {
 	display: inline;
+	font-weight: var(--logo_weight);
 }
 
 #beta-badge {
@@ -45,21 +47,10 @@ a:hover {
 	display: inline;
 }
 
-#header-logo-text {
-	font-family: var(--title_font);
-	font-weight: 700;
-	color: orangered;
-}
-
-#navbar-antorca {
-	background-color: orangered;
-	background: linear-gradient(to bottom, orangered, darkred);
-}
-
 .navbar-brand {
 	font-family: var(--title_font);
 	font-size: 1.5em;
-	font-weight: 700;
+	font-weight: var(--logo_weight);
 	color: var(--title_colour);
 }
 
