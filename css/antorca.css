@@ -1,8 +1,8 @@
 :root {
-    --title_font: 'Martel Sans', 'Source Serif Pro', sans-serif;
-    --body_font: sans-serif;
+    --title_font: 'Open Sans', sans-serif;
+    --body_font: 'Open Sans', sans-serif;
 	--title_colour: orangered;
-	--logo_weight: 900;
+	--logo_weight: 700;
     --button_radius: 5px;
     --global_radius: 5px;
     --display_pattern: repeating-linear-gradient(-45deg, white, white 2em, whitesmoke 2em, whitesmoke 4em);
@@ -35,6 +35,10 @@ a:hover {
 
 .container {
 	max-width: 800px;
+}
+
+.lead {
+	font-weight: 400;
 }
 
 #jumbotron-title {
