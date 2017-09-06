@@ -1,6 +1,6 @@
 :root {
-    --title_font: 'Open Sans', sans-serif;
-    --body_font: 'Open Sans', sans-serif;
+    --title_font: 'Verdana', sans-serif;
+    --body_font: 'Verdana', sans-serif;
 	--title_colour: orangered;
 	--logo_weight: 700;
     --button_radius: 5px;
@@ -11,7 +11,7 @@
 body {
 	font-family: var(--body_font);
 	font-display: swap;
-	font-size: 1em;
+	font-size: 0.85em;
 	line-height: 1.75;
 	position: relative;
 }
@@ -42,7 +42,7 @@ a:hover {
 }
 
 #jumbotron-title {
-	display: inline;
+	/* display: inline; */
 	font-weight: var(--logo_weight);
 }
 
@@ -61,4 +61,8 @@ a:hover {
 .section {
 	margin-top: 3em;
 	margin-bottom: 3em;
+}
+
+#footer {
+	max-width: 320px;
 }
