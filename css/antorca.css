@@ -1,6 +1,6 @@
 :root {
-    --title_font: 'Helvetica', 'Nimbus Sans L', 'Arial', sans-serif;
-    --body_font: 'Helvetica', 'Nimbus Sans L', 'Arial', sans-serif;
+    --title_font: 'Verdana', 'DejaVu Sans', sans-serif;
+    --body_font: 'Verdana', 'DejaVu Sans', sans-serif;
 	--title_colour: orangered;
 	--logo_weight: 700;
     --button_radius: 5px;
