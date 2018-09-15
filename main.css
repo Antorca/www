@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow:400,400i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400i');
 
 body {
 	font-family: Helvetica, Arial, sans-serif !important;
@@ -8,7 +8,7 @@ body {
 	line-height: 1.75;
 	text-align: center;
 	color: black;
-	background-color: white;
+	background-color: blanchedalmond;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -36,7 +36,7 @@ body {
 	line-height: inherit;
 	margin: 0;
 	margin-top: 1em;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
     padding: 0;
 	box-sizing: border-box;
 	color: inherit;
@@ -53,19 +53,20 @@ header {
 	margin: 0;
 	margin-bottom: 3em;
 	padding: 0;
-	font-family: 'Barlow', sans-serif !important;
+	font-family: 'Sorts Mill Goudy', serif !important;
 }
 header h1 {
-	color: #FF3300;
+	color: brown;
 	word-wrap: wrap;
-	font-weight: 700 !important;
-	font-size: 4em;
+	font-weight: 400 !important;
+	font-size: 6em;
 }
 header h2 {
 	color: inherit;
 	word-wrap: wrap;
-	font-weight: 300 !important;
-	font-size: 1.5em;
+	font-weight: 400 !important;
+	font-style: italic;
+	font-size: 2em;
 	margin-top: -2em;
 }
 
@@ -107,12 +108,12 @@ p {
 }
 
 a {
-	color: #FF3300;
+	color: brown;
 	background: none;
-	text-decoration: none;
+	text-decoration: underline;
 	font-weight: inherit;
 	border: 0;
 }
 a:hover {
-	text-decoration: underline;
+	color: chocolate;
 }
