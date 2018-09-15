@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Antorca</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="antorca, linux, illume os, clarence, siew, clarence siew" name="keywords">
+	<meta content="Linux for realists and lazybums." name="description">
+	<meta content="Antorca" name="title">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/antorca.css">
+	<link rel="icon" type="image/png" href="icon.png">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+</head>
+<body data-spy="scroll">
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+	<div class="container">
+		<a class="navbar-brand" href="#">
+			<img src="logo.png" height="30" alt="" style="padding-right: 0.5em;">
+			Antorca
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="https://antorca.wordpress.com/" target="_blank">Blog</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#overview">Overview</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#features">Features</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#download">Download</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#support">Support</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container" style="margin-top: 6em; margin-bottom: 6em;">
+
+	<div class="jumbotron text-center text-light" style="background: linear-gradient(to bottom right, midnightblue, maroon);">
+		<span>
+			<h1 id="jumbotron-title">Antorca 5.0</h1>
+		</span>
+		<p class="lead">Linux for realists and lazybums</p>
+		<p class="lead">
+			<a class="btn btn-success" href="#download" role="button">Download</a>
+			<a class="btn btn-info" href="https://antorca.tumblr.com/post/164355236977/antorca-50-beta-2" target="_blank" role="button">See what's new</a>
+		</p>
+	</div>
+
+	<!-- OVERVIEW -->
+	<div class="section" id="overview">
+		<p>
+			<b>Antorca</b> is an operating system designed with practicality and pragmatism in-mind. It does so by providing an out-of-the-box experience that most users are likely to end up wanting (i.e. completely ignoring strict open-source-only tradition and going for whatever apps and configurations people <u>want</u>) and that does not consume too much precious, precious memory.
+		</p>
+		<p>
+			Antorca is based on the <b>64-bit testing branch</b> of the <b>Debian GNU/Linux</b> distribution, meaning that app packages meant for Debian and/or Ubuntu should be compatible with Antorca, and packages should be relatively up to date.
+		</p>
+	</div>
+	
+	<!-- SCREENSHOT -->
+	<div class="section">
+		<div class="text-center">
+			<img class="rounded" src="screenshot-beta.png" alt="Screenshot of Antorca 5.0 desktop" width="100%"
+			style="box-shadow: 0px 4px 8px rgba(0,0,0,0.5);">
+		</div>
+	</div>
+	
+	<!-- FEATURES -->
+	<div class="section" id="features">
+		<h1>Features</h1>
+
+		<div class="card-group">
+			<div class="card border-0">
+				<div class="card-body">
+					<h4 class="card-title">Up to date</h4>
+					<p class="card-text">
+						Based on Debian Sid, an up to date version of Debian GNU/Linux which provides the latest packages whilst being stable enough for daily use.
+					</p>
+				</div>
+			</div>
+			<div class="card border-0">
+				<div class="card-body">
+					<h4 class="card-title">Fast and Safe</h4>
+					<p class="card-text">
+						Fast performance and quick app load times thanks to system tweaks. Your system is also well-secured thanks to the <b>ufw</b> firewall and <b>ClamAV</b> antivirus.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="card-group">
+			<div class="card border-0">
+				<div class="card-body">
+					<h4 class="card-title">Beautiful yet pragmatic</h4>
+					<p class="card-text">
+						Stylish, clean, and intuitive desktop environments (<b>Xfce</b>). It comes with the Arc theme set and Paper icon theme to give a minimalist and refined look.
+					</p>
+					<p class="card-text">
+						Its similarity to the layout of Windows XP/Vista/7's desktop means longtime Windows users will find adjusting to Antorca relatively easily.
+					</p>
+				</div>
+			</div>
+			<div class="card border-0">
+				<div class="card-body">
+					<h4 class="card-title">Connected</h4>
+					<p class="card-text">
+						<a href="https://www.mozilla.org/" target="_blank">Firefox</a> web browser with plugins such as <a href="https://github.com/gorhill/uBlock" target="_blank">uBlock Origin</a> and <a href="https://www.eff.org/https-everywhere%20" target="_blank">HTTPS Everywhere</a> to provide a safe and fast browsing experience. Automatic video playback when opening a link in a new tab with a video has been disabled. <a href="https://wiki.debian.org/PepperFlashPlayer" target="_blank">Pepper Flash</a> (a modern Adobe Flash replacement) is included, but Flash content will not run until the user allows it to run.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="card-group">
+			<div class="card border-0">
+				<div class="card-body">
+					<h4 class="card-title">Communicate</h4>
+					<p class="card-text">
+						<a href="https://wiki.gnome.org/Apps/Geary" target="_blank">Geary</a> is a modern mail client with a intuitive interface where email threads are as conversations. Geary supports Gmail, Yahoo Mail, Outlook, and other IMAP mail services.
+					</p>
+				</div>
+			</div>
+			<div class="card border-0">
+				<div class="card-body">
+					<h4 class="card-title">Media-ready</h4>
+					<p class="card-text">
+						MPV media player supports a vast range of media formats. <a href="https://www.videolan.org/vlc/index.html" target="_blank">VLC</a> media player supports a vast range of media formats, as well as built-in support for DVD playback. <a href="https://wiki.gnome.org/Apps/Rhythmbox" target="_blank">Rhythmbox</a> audio player included to organise your music collection and to listen to web radio.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="card-group">
+			<div class="card border-0">
+				<div class="card-body">
+					<h4 class="card-title">All the apps</h4>
+					<p class="card-text">
+						Access to popular third-party apps like <a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a>, <a href="https://www.google.com/earth/" target="_blank">Google Earth</a>, <a href="https://www.opera.com/computer/linux" target="_blank">Opera</a>, <a href="https://vivaldi.com/?lang=en" target="_blank">Vivaldi</a>, <a href="https://www.spotify.com" target="_blank">Spotify</a>, and various media apps (audio editors, video editors, media codecs, etc).
+					</p>
+				</div>
+			</div>
+			<div class="card border-0">
+				<div class="card-body">
+					<h4 class="card-title">Containers</h4>
+					<p class="card-text">
+						Supports installation and updating of <a href="http://flatpak.org/" target="_blank">Flatpak</a> and <a href="https://snapcraft.io/" target="_blank">Snappy</a> packages. Such packages contain all dependencies within the package itself so you could always use the latest releases of your favourite apps.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="card-group">
+			<div class="card border-0">
+				<div class="card-body">
+					<h4 class="card-title">Non-Latin writing systems</h4>
+					<p class="card-text">
+						Supports Chinese, Japanese, Korean, and Thai language scripts for display on the web (alternate input methods must be setup manually).
+					</p>
+				</div>
+			</div>
+			<div class="card border-0">
+				<div class="card-body">
+					<h4 class="card-title">Sane software updates</h4>
+					<p class="card-text">
+						<a href="https://www.cnet.com/news/microsoft-windows-10-forced-updates-auto-restarts-are-the-worst/" target="_blank">No forced, automatic reboots for updates!</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!--
+		<div class="card">
+			<ul class="list-group list-group-flush">
+				<li class="list-group-item">
+					Based on Debian Sid, an up to date version of Debian which provides the latest packages whilst being stable enough for daily use.
+				</li>
+				<li class="list-group-item">
+					Fast performance and quick app load times thanks to system tweaks.
+				</li>
+				<li class="list-group-item">
+					Stylish, clean, and intuitive desktop environments (<b>Xfce</b>). It comes with the Arc theme set and Paper icon theme to give a minimalist and refined look.
+				</li>
+				<li class="list-group-item">
+					<a href="https://www.mozilla.org/" target="_blank">Firefox</a> web browser with plugins such as <a href="https://github.com/gorhill/uBlock" target="_blank">uBlock Origin</a> and <a href="https://www.eff.org/https-everywhere%20" target="_blank">HTTPS Everywhere</a> to provide a safe and fast browsing experience. Automatic video playback when opening a link in a new tab with a video has been disabled. <a href="https://wiki.debian.org/PepperFlashPlayer" target="_blank">Pepper Flash</a> (a modern Adobe Flash replacement) is included, but Flash content will not run until the user allows it to run.
+				</li>
+				<li class="list-group-item">
+					<a href="https://wiki.gnome.org/Apps/Geary" target="_blank">Geary</a> is a modern mail client with a intuitive interface where email threads are as conversations. Geary supports Gmail, Yahoo Mail, Outlook, and other IMAP mail services.
+				</li>
+				<li class="list-group-item">
+					MPV media player supports a vast range of media formats. <a href="https://www.videolan.org/vlc/index.html" target="_blank">VLC</a> media player supports a vast range of media formats, as well as built-in support for DVD playback. <a href="https://wiki.gnome.org/Apps/Rhythmbox" target="_blank">Rhythmbox</a> audio player included to organise your music collection and to listen to web radio.
+				</li>
+				<li class="list-group-item">
+					Access to popular third-party apps like <a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a>, <a href="https://www.google.com/earth/" target="_blank">Google Earth</a>, <a href="https://www.opera.com/computer/linux" target="_blank">Opera</a>, <a href="https://vivaldi.com/?lang=en" target="_blank">Vivaldi</a>, <a href="https://www.spotify.com" target="_blank">Spotify</a>, and various media apps (audio editors, video editors, media codecs, etc).
+				</li>
+				<li class="list-group-item">
+					Supports installation and updating of <a href="http://flatpak.org/" target="_blank">Flatpak</a> and <a href="https://snapcraft.io/" target="_blank">Snappy</a> packages. Such packages contain all dependencies within the package itself so you could always use the latest releases of your favourite apps.
+				</li>
+				<li class="list-group-item">
+					Supports Chinese, Japanese, Korean, and Thai language scripts for display on the web (alternate input methods must be setup manually).
+				</li>
+				<li class="list-group-item">
+					<a href="https://www.cnet.com/news/microsoft-windows-10-forced-updates-auto-restarts-are-the-worst/" target="_blank">No forced, automatic reboots for updates!</a>
+				</li>
+			</ul>
+		</div>
+		-->
+	</div>
+	
+	<!-- DOWNLOAD -->
+	<div class="section" id="download">
+		<h1>Download</h1>
+		<p>
+			Antorca builds can be downloaded via the project's SourceForge page. Stable releases can be downloaded via either the SourceForge page or direct from the website.
+		</p>
+		<p class="warning">
+			<b>WARNING:</b> Antorca is currently under development and thus it is not recommended to run Antorca preview releases as your daily driver!
+		</p>
+		<p class="notes">
+			<b>NOTE:</b> The only user account on the live image is <font style="color: crimson;"><u><b>root</b></u></font>, and the default password is <font style="color: crimson;"><u><b>antorca</b></u></font>. Current builds do not include the new installer with user account creation - thus you should setup a new account using the "adduser [username] sudo" as well as changing the root password using the command "passwd root" in the terminal before installing the live image on to a hard disk.
+		</p>
+
+		<div class="section" style="width: 100%;">
+			<div class="card text-center w-75" style="margin-left: auto; margin-right: auto;">
+				<div class="card-header">
+					Latest Release
+				</div>
+				<div class="card-body">
+					<h4 class="card-title">Antorca 5.0 Beta 2</h4>
+					<p class="card-text"><b>Beta 2</b> (build 20170819-r19)</p>
+					<a href="https://sourceforge.net/projects/antorca/files/next/crimson/20170819-r19/antorca-20170819-r19-amd64.iso/download" class="btn btn-success">Download &#10140;</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="section" style="width: 100%; text-align: center;">
+			<div style="margin-left: auto; margin-right: auto;">
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#downloadsTable">
+					See previous releases
+				</button>
+			</div>
+		</div>
+		
+		<!-- Modal -->
+		<div class="modal fade" id="downloadsTable" tabindex="-1" role="dialog" aria-labelledby="downloadsTableTitle" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="downloadsTableTitle">Previous releases</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+			  			</button>
+					</div>
+					<div class="modal-body">
+						<table class="table" width=100% cellspacing=0 cellpadding=8>
+							<tr style="background-color: whitesmoke;">
+								<th>Build</th>
+								<th>Changelog</th>
+								<th>Download (SourceForge)</th>
+							</tr>
+							<tr>
+								<td>20170819-r19 (Beta 2)</td>
+								<td><a href="https://antorca.tumblr.com/post/164355236977/antorca-50-beta-2" target="_blank">Read</a></td>
+								<td><a href="https://sourceforge.net/projects/antorca/files/next/crimson/20170819-r19/antorca-20170819-r19-amd64.iso/download" target="_blank">Link (ISO, 2.10GB)</a></td>
+							</tr>
+							<tr>
+								<td>20170726-r18 (Beta 1)</td>
+								<td><a href="https://antorca.tumblr.com/post/163482112907/antorca-50-beta-1" target="_blank">Read</a></td>
+								<td><a href="https://sourceforge.net/projects/antorca/files/next/crimson/20170726-r18/antorca-20170726-r18-amd64.iso/download" target="_blank">Link (ISO, 2.10GB)</a></td>
+							</tr>
+							<tr>
+								<td>20170409-r15</td>
+								<td><a href="https://antorca.tumblr.com/post/159404542867/antorca-dev-release-20170409-r15" target="_blank">Read</a></td>
+								<td><a href="https://sourceforge.net/projects/antorca/files/next/crimson/20170409-r15/antorca-20170409-r15-amd64.iso/download" target="_blank">Link (ISO, 1.71GB)</a></td>
+							</tr>
+							<tr>
+								<td>20170221-r14</td>
+								<td><a href="https://antorca.tumblr.com/post/157558796537/antorca-crimson-build-20170221-r14" target="_blank">Read</a></td>
+								<td><a href="https://sourceforge.net/projects/antorca/files/next/crimson/20170221-r14/antorca-20170221-r14-amd64.iso/download" target="_blank">Link (ISO, 1.43GB)</a></td>
+							</tr>
+							<tr>
+								<td>20170127_1150</td>
+								<td><a href="changelogs/20170127_1150.txt" target="_blank">Read</a></td>
+								<td><a href="https://sourceforge.net/projects/antorca/files/next/aberfeldy/20170127_1150/antorca-20170127_1150.iso/download" target="_blank">Link (ISO, 1.91GB)</a></td>
+							</tr>
+							<tr>
+								<td>20170123_1250</td>
+								<td><a href="changelogs/20170123_1250.txt" target="_blank">Read</a></td>
+								<td><a href="https://sourceforge.net/projects/antorca/files/next/aberfeldy/20170123_1250/antorca-20170123_1250.iso/download" target="_blank">Link (ISO, 1.86GB)</a></td>
+							</tr>
+							<tr>
+								<td>20170114_1045</td>
+								<td><a href="changelogs/20170114_1045.txt" target="_blank">Read</a></td>
+								<td><a href="https://sourceforge.net/projects/antorca/files/next/aberfeldy/20170114_1045/antorca-20170114_1045.iso/download" target="_blank">Link (ISO, 1.81GB)</a></td>
+							</tr>
+						</table>
+					</div>
+					<div class="modal-footer">
+			  			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+		  		</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section" id="support">
+		<h1>Support</h1>
+		<p>
+			Some useful resources for troubleshooting issues include the <a href="https://wiki.debian.org/" target="_blank">Debian Wiki</a> and the <a href="https://wiki.archlinux.org/" target="_blank">Arch Wiki</a>. Otherwise if you are in need of assistance, you may <a href="mailto:clarence.siew@protonmail.com">contact me via email</a>. Alternatively, you can visit <a href="https://www.facebook.com/antorcaos/">the project's Facebook page</a> and send a message.
+		</p>
+		<div class="section" style="width: 100%;">
+			<div class="card bg-light w-75" style="margin-left: auto; margin-right: auto;">
+				<div class="card-body">
+					<h4 class="card-title">Feedback</h4>
+					<p class="card-text">Have some feedback? Don't hesitate to submit a feedback report!</p>
+					<a href="https://goo.gl/forms/Yw1Wbtpsp9rVBbPj1" target="_blank" class="btn btn-dark">Give feedback</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<footer class="footer text-dark bg-light text-center" style="padding: 1em;">
+	<div class="container" id="footer">
+		<div class="section">
+			<p>
+				<div class="btn-group" role="group" aria-label="Social">
+					<a class="btn btn-secondary" href="https://www.facebook.com/antorcaos" target="_blank">Facebook</a>
+					<a class="btn btn-secondary" href="https://github.com/antorca" target="_blank">GitHub</a>
+					<a class="btn btn-secondary" href="https://antorca.wordpress.com/" target="_blank">WordPress</a>
+				</div>
+			</p>
+			<hr />
+			<p>
+				&copy; 2017 <a href="https://csiew.github.io/" target="_blank">Clarence Siew</a>
+			</p>
+			<small>
+				<p>
+					The name 'Debian' is a trademark of the Debian Project, as is 'Firefox' of the Mozilla Foundation, and that of 'VLC' of VideoLan.
+				</p>
+				<p>
+					This site is powered by <a href="https://github.com/">GitHub</a> and <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+				</p>
+			</small>
+		</div>
+	</div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://unpkg.com/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
