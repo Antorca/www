@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root {
+	--HEADER-FONT-FAMILY: Besley, Helvetica, Arial, sans-serif;
+	--CONTENT-FONT-FAMILY: Standard, Helvetica, Arial, sans-serif;
+}
 
 html, body {
 	display: flex;
@@ -6,17 +9,19 @@ html, body {
 	align-items: center;
 	align-content: center;
 	justify-content: center;
-	width: 100%;
+	width: 380px;
 	height: 100%;
 	margin: auto;
 	padding: 0;
 	background: whitesmoke;
-	font-family: 'Public Sans', Helvetica, Arial, sans-serif;
+	font-family: var(--CONTENT-FONT-FAMILY);
 	font-size: 20px;
+	line-height: 1.5;
 	text-align: center;
 }
 
 h1, h2, h3, h4, h5 {
+	font-family: var(--HEADER-FONT-FAMILY);
 	color: brown;
 }
 
